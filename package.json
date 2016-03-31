@@ -1,0 +1,27 @@
+{
+  "name": "web-reverse-proxy",
+  "version": "1.0.0",
+  "description": "reverse proxy for various webapps (NetIQ NAM alternative)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdharris/web-reverse-proxy.git"
+  },
+  "author": "Tyler Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdharris/web-reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/tdharris/web-reverse-proxy#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "http-proxy": "^1.13.2",
+    "https": "^1.0.0",
+    "log-leveler": "^2.0.0",
+    "winston": "^2.2.0"
+  }
+}

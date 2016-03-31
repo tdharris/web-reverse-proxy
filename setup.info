@@ -1,0 +1,2 @@
+# Running app as a non-root user, need to grant low-numbered port access
+sudo setcap 'cap_net_bind_service=+ep' $(readlink -f $(which node))
